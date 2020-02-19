@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ultima Hora</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ p {
+  text-align: justify;
+}
+.btn{
+    background: #28252D;
+    color: #fff;
+    font-family: Lato, sans-serif
+}
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+footer a {
+    color: #f5f5f5;
+}
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+} 
+</style>
+</head>
+<body id="myPage">
+
+<div class="jumbotron text-center" style="margin-bottom:0 ; background-color:#be2026;">
+  <img src="imagenes/caracol.png">
+  <br><br> 
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0 ; background-color:#a0a0a0;">
+  <h3 style="color: white; text-align: center; font: italic;">NOTICIAS DE ÚLTIMA HORA</h3> 
+</div>
+
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h5>Avance:</h5>
+    <div class="col-sm-8">
+      <h2>Confiscan celular de alias 'James' con audio encriptado</h2>
+      <h5>18/04/2019 - 20:31 COT</h5>
+<br> 
+      <p>
+        Reportes provenientes del centro penitenciario La Picota anuncian que al recientemente capturado cabecilla de red de microtráfico, Héctor Jaime Espinosa Vélez, conocido como alias James, se le fueron confiscados celulares de contrabando en donde se supone que se esconde información crucial para la resolución de investigaciones de alta relevancia dentro de la fiscalia. Se halla dentro de uno de los celulares confiscados el siguiente audio, el cual esta siendo analizado por el cuerpo investigativo con el fin de resolver la presunta encriptación que ahí se esconde.
+
+      </p>
+      <br>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0 ; background-color:#be2026;">
+
+<h3 style="color: white;">Entre el código secreto</h3>
+
+<p id="demo" style="color: white;"></p>
+<p id="correcto" style="color: white;"></p>
+
+<input type="text" id="myText" value="Algún texto...">
+
+<button onclick="myFunction()">Intento</button>
+
+</div>
+
+<script>
+function myFunction() {
+  var y = document.createElement("IMG");
+  y.setAttribute("src", "imagenes/reporte2.jpeg");
+  y.setAttribute("width", "304");
+  y.setAttribute("height", "228");
+  var x = document.getElementById("myText").value;
+  
+  if(x==10){
+  document.body.appendChild(y);
+  document.getElementById("correcto").innerHTML = "Correcto, baje.";
+  }
+  else{
+  document.getElementById("demo").innerHTML = "Incorrecto";
+  }
+}
+</script>
+
+<br><br><br><br>
+
+
+
+
+
+
+</body>
+</html>
