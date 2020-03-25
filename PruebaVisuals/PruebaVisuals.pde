@@ -12,6 +12,7 @@ float backgroundOpacity = 10;
 float totalSpinOffset = 0;
 float totalHueOffset = 0;
 
+
 int animationSpeed = 20;
 
 void setup(){
