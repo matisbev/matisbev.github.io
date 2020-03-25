@@ -63,7 +63,8 @@ class Cube{
     float sizeGap = newSize - size;
     sizeGap = sizeGap / animationSpeed;
     size += sizeGap;
-    
+   
+   
     // Animate towards new thickness
     float thicknessGap = newThickness - thickness;
     thicknessGap = thicknessGap / animationSpeed;
